@@ -17,7 +17,7 @@ var filteredResults;
 
 hbs.registerHelper('list', (items, options) => {
   items = filteredResults;
-  var out ="<tr><th>Name</th><th>Address</th><th>Photo</th></tr>";
+  var out ="<thead class='thead-light'><tr><th>Name</th><th>Address</th><th>Photo</th></tr></thead>";
 
   const length = items.length;
 
